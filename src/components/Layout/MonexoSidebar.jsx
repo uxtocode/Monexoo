@@ -75,29 +75,11 @@ const MonexoSidebar = () => {
 
   return (
     <>
-      {/* Mobile Menu Button */}
-      {/* {isMobile && !isOpen && (
-        <button
-          data-mobile-trigger
-          onClick={toggleSidebar}
-          className="fixed top-4 left-4 z-[60] p-2 bg-[#0d0d0d] text-white rounded-lg shadow-lg md:hidden"
-        >
-          <Menu className="w-6 h-6" />
-        </button>
-      )} */}
-
-      {/* Mobile Backdrop */}
-      {isMobile && isOpen && (
-        <div
-          className="fixed inset-0 bg-black/50 z-40 md:hidden"
-          onClick={closeMobileSidebar}
-        />
-      )}
-
       {/* Sidebar */}
       <aside
         className={`
-          ${isMobile ? 'fixed' : 'fixed'} 
+          ${isMobile ? 'fixed' : 'fixed'}
+          hidden md:block
           left-0 top-0 h-full z-50 
           transition-all duration-300 
           bg-[#0d0d0d] text-white shadow-lg border-r-1 border-[#1a1a1a]/50
