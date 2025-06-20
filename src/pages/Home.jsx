@@ -10,7 +10,7 @@ const ImprovedHeader = () => {
         {/* left */}
         <div className='flex md:hidden items-center gap-3'>
           <img src="./logo.png" alt="" className='w-7 h-7 rounded-md'/>
-          <h2 className='font-bold text-xl'>Monexo</h2>
+          <h2 className='font-bold text-xl'>MonExo</h2>
         </div>
 
         <div className='hidden md:block'>
