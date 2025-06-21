@@ -210,7 +210,7 @@ const MonexoSidebar = () => {
             </nav>
 
             {/* Financial Stats */}
-            {isExpanded && (
+            {/* {isExpanded && (
               <section
                 className="mt-auto p-4 bg-gradient-to-r from-gray-800 to-gray-700 rounded-xl border border-gray-600/30"
                 aria-labelledby="financial-stats-heading"
@@ -247,7 +247,7 @@ const MonexoSidebar = () => {
                   +15% from last month
                 </p>
               </section>
-            )}
+            )} */}
           </div>
         </nav>
       </aside>
