@@ -6,11 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Layout from './components/Layout/Layout.jsx'
 import Home from './pages/Home.jsx'
-import Overview from './pages/Overview.jsx'
-import Transactions from './pages/Transactions.jsx'
 import AddTransaction from './pages/AddTransaction.jsx'
-import Notifications from './pages/Notifications.jsx'
-import Profile from './pages/Profile.jsx'
+import Transactions from './pages/Transactions.jsx'
 import Settings from './pages/Settings.jsx'
 
 const router = createBrowserRouter([
@@ -27,20 +24,8 @@ const router = createBrowserRouter([
         element: <AddTransaction />,
       },
       {
-        path: '/overview',
-        element: <Overview />,
-      },
-      {
-        path: '/notifications',
-        element: <Notifications />,
-      },
-      {
         path: '/transactions',
         element: <Transactions />,
-      },
-      {
-        path: '/profile',
-        element: <Profile />,
       },
       {
         path: '/settings',
